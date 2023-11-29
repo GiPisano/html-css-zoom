@@ -40,7 +40,7 @@ body {
 /* --MAIN-- */
 
 .container{
-    background-color: rgb(133, 132, 132);
+    background-color: black;
     height: calc(100vh - 50px - 70px);
     display: flex;
     justify-content: center;
@@ -51,10 +51,19 @@ body {
 }
 
 .card{
-    background-color: brown;
+    background-color: black;
     margin:  1px;
-    height: 100px;
-    width: 200px;
+    height: 200px;
+    width: 300px;
+    position: relative;
+}
+
+.name{
+    position: absolute;
+    bottom: 15px;
+    left: 1px;
+    color: white;
+    background-color: grey;
 }
 
 /* --FOOTER-- */
@@ -81,6 +90,7 @@ body {
 .icon {
   font-size: 20px;
   padding: 5px;
+  cursor: pointer;
 }
 
 .icon-block{
@@ -108,6 +118,7 @@ body {
 .footer-right{
     background-color: rgb(74, 74, 74);
     padding: 10px;
+    cursor: pointer;
 }
 
 
