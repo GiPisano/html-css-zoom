@@ -6,12 +6,15 @@
     box-sizing: border-box;
 }
 
+/* --HEADER-- */
+
 #header{
-    min-height: 50px;
+    height: 50px;
     width: 100%;
     background-color: black;
     text-align: end;
     padding: 1px 1px;
+    position: sticky;
 }
 
 #header span {
@@ -20,4 +23,26 @@
     font-size: 10px;
     padding: 5px;
     border-radius: 4px;
+    cursor: pointer;
 }
+
+/* --MAIN-- */
+
+.container{
+    background-color: rgb(133, 132, 132);
+    height: calc(100vh - 52px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px ;
+    overflow: scroll;
+}
+
+.card{
+    background-color: brown;
+    margin:  1px;
+    height: 100px;
+    width: 200px;
+}
+
